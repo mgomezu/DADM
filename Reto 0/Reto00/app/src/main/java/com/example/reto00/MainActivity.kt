@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
                             .padding(innerPadding),
                         contentAlignment = Alignment.Center // Centra el contenido
                     ) {
-                        Greeting(name = "World")
+                        Greeting(name = "Mundo")
                     }
                 }
             }
@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "!Hola $name!",
         modifier = modifier
     )
 }
