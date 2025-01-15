@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/nombreEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la Empresa"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/urlEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URL: www.ejemplo.com"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/telefonoEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teléfono: 123456789"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/emailEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: empresa@ejemplo.com"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/clasificacionEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clasificación: Consultoría, Desarrollo"
+        android:textSize="14sp" />
+</LinearLayout>
