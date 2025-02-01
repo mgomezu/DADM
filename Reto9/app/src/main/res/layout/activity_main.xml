@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- Botón para abrir la pantalla de preferencias -->
+
+
+    <Button
+        android:id="@+id/mas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/sharp_add_black_36"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="0dp"/>
+
+
+    <Button
+        android:id="@+id/menos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/sharp_remove_black_36"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="150dp"/>
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:text="1 km"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="85dp"
+        android:visibility="visible"
+        />
+
+</RelativeLayout>
