@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ACM23</string>
+    <string name="action_go">Go</string>
+    <string name="baking_title">AC Milan 2023</string>
+    <string name="label_prompt">Pregunta</string>
+    <string name="prompt_placeholder"></string>
+    <string name="image1_description"></string>
+    <string name="image2_description"></string>
+    <string name="image3_description"></string>
+    <string name="results_placeholder">(La respuesta saldrá aqui)</string>
+    <string name="textInfo">Aqui puedes preguntar por las estadisticas del milan del año 2023</string>
+</resources>
